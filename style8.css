@@ -1,0 +1,394 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main-parent
+{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(22, 22, 80);
+    position: relative;
+}
+.child
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    display: flex;
+}
+ul li
+{
+    padding: 40px 20px;
+    list-style: none;
+    font-size: 20px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.child h1
+{
+    padding: 30px 50px;
+    font-size: 30px;
+    color: white;
+}
+.child button
+{
+    height: 35px;
+    width: 130px;
+    margin: 30px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(92, 179, 6);
+}
+.chil2 h1
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+span
+{
+    background-color: white;
+    color:  rgb(22, 22, 80);
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.middle
+{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    gap: 120px;
+    
+}
+.midle2
+{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.child3
+{
+    padding: 50px;
+    text-align: center;
+}
+.child3 h1 
+{
+    font-size: 40px;
+}
+.child3 h2
+{
+    font-size: 35px;
+    padding-top: 10px;
+} 
+.child3 p
+{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.child3 button
+{
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(92, 179, 6);
+    font-size: 18px;
+}
+/* this is middle-part */
+.mather 
+{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+.show  
+{
+    text-align: center;
+    padding: 50px;  
+}
+.show h1
+{
+    font-size: 45px;
+  
+}
+.main-parent2
+{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    margin-right: 30px;
+    gap: 80px;
+}
+.father 
+{
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+   box-shadow: 3px 3px 8px black;
+}
+.part1 h2 
+{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.part1 button
+{
+    height: 40px;
+    width: 170px;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(92, 179, 6);
+    color: white;
+}
+.lower
+{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+}
+.lastmiddle
+{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.part4 p
+{
+    padding-bottom: 20px;
+}
+/* this is part three */
+
+.header h1 
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 35px;
+    
+}
+.smal-parnt 
+{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    gap: 60px;
+}
+.chid4 p
+{
+  padding-top: 10px;
+}
+/* this is part four */
+.young-parnt 
+{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(29, 29, 105);
+    margin-top: 50px;
+}
+.young-parnt h1
+{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: white;
+}
+.young-parnt p
+{
+    text-align: center;
+    color: white;
+}
+.young-parnt button
+{
+    height: 40px;
+    width: 170px;
+    background-color: rgb(92, 179, 6) ;
+    margin-left: 620px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+.child5
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    justify-content: center;
+}
+.part5
+{
+    color: white;
+    padding-top: 50px;
+}
+.part5 p
+{
+   padding-right: 100px;
+   
+}
+.part5 h2
+{
+    padding-bottom: 10px;
+}
+@media screen and (max-width:600px) {
+    /* body 
+    {
+        background-color: blueviolet;
+    } */
+  .child  .underline
+     {
+        display: none;
+     }
+     .child button
+     {
+        display: none;
+     }
+     .child h1
+{
+    padding: 20px 30px;
+    font-size: 25px;
+    color: white;
+    padding-top: 38px;
+}
+    .chil2 h1
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 45px;
+    color: white;
+}   
+.midle2
+{
+    height: 280px;
+    width: 130%;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+   
+}
+.middle
+{
+    display: grid;
+    grid-template-columns: 180px 180px;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+.child3
+{
+    padding: 50px;
+    text-align: center;
+}
+.child3 h1 
+{
+    font-size: 23px;
+}
+.child3 h2
+{
+    font-size: 28px;
+    padding-top: 10px;
+} 
+.child3 button
+{
+    height: 50px;
+    width: 160px;
+    margin-left: -18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(92, 179, 6);
+    font-size: 15px;
+}
+.show h1
+{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.main-parent2
+{
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center;
+    margin-right: 30px;
+    gap: 80px;
+}
+.father 
+{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+   box-shadow: 3px 3px 8px black;
+}
+.lastmiddle
+{
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.header h1 
+{
+    font-size: 30px; 
+}
+.smal-parnt 
+{
+    display: grid;
+    grid-template-columns: 450px;
+    justify-content: center;
+    gap: 60px;
+}
+.young-parnt h1
+{
+    padding-bottom: 10px;
+    font-size: 30px;
+  margin-left: -18%;
+}
+
+.child5
+{
+    display: grid;
+    grid-template-columns: 280px 280px;
+    justify-content: center;
+}
+.young-parnt 
+{
+    padding-left: 60px;
+    height: 1180px;
+    width: 100%;
+    background-color: rgb(29, 29, 105);
+    margin-top: 50px;
+}
+.part5 p
+{
+   padding-right: 200px;
+   
+}
+.young-parnt button
+{
+    height: 40px;
+    width: 170px;
+    background-color: rgb(92, 179, 6) ;
+    margin-left: 20%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+}
